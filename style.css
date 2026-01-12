@@ -1,0 +1,125 @@
+  /* Basic page styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /* Main container */
+  .todo-container {
+    background: #fff;
+    width: 350px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Title */
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* Input and Add button */
+  .input-section {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+
+  .input-section input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .editInput {
+    display: none;
+  }
+
+  .add-btn {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .add-btn:hover {
+    background-color: #45a049;
+  }
+
+  /* Task list */
+  .tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Each task box */
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    border-radius: 4px;
+  }
+
+  /* Task text */
+  .list p {
+    margin: 0;
+    flex: 1;
+  }
+
+  /* Buttons inside each task */
+  .list button {
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  /* Make input and text align consistently */
+  .list p,
+  .list .editInput {
+    flex: 1;
+  }
+
+  /* Ensure edit input takes same space as text */
+  .list .editInput {
+    display: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+  }
+
+  /* Edit button */
+  .edit {
+    background-color: #2196F3;
+  }
+
+  .edit:hover {
+    background-color: #0b7dda;
+  }
+
+  /* Delete button */
+  .delete {
+    background-color: #f44336;
+  }
+
+  .delete:hover {
+    background-color: #da190b;
+  }
+
+  .saveBtn {
+    background-color: #c640eb;
+    display: none;
+  }
