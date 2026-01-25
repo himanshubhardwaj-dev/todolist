@@ -1,2 +1,2 @@
-# TodoList is my ever project
+# TodoList is my first project
 # simple crud operation.
